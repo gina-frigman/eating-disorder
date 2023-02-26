@@ -1,0 +1,25 @@
+@import url(./../vendor/normalize.css);
+@import url(./../vendor/fonts/fonts.css);
+@import url(./../blocks/page/page.css);
+
+@import url(./../blocks/header/header.css);
+@import url(./../blocks/header/__title/header__title.css);
+
+@import url(./../blocks/menu/menu.css);
+@import url(./../blocks/menu/_device/menu_device_phone.css);
+@import url(./../blocks/menu/_device/menu_device_computer.css);
+@import url(./../blocks/menu/_opened/menu_opened.css);
+@import url(./../blocks/menu/__container/menu__container.css);
+@import url(./../blocks/menu/__header/menu__header.css);
+@import url(./../blocks/menu-button/menu-button.css);
+@import url(./../blocks/menu/__title/menu__title.css);
+@import url(./../blocks/menu-links/menu-links.css);
+@import url(./../blocks/menu/__link/menu__link.css);
+
+@import url(./../blocks/main-info/main-info.css);
+@import url(./../blocks/info/info.css);
+@import url(./../blocks/info/_position/info_left.css);
+@import url(./../blocks/info/_position/info_right.css);
+@import url(./../blocks/info/__title/info__title.css);
+@import url(./../blocks/info/__paragraph/info__paragraph.css);
+

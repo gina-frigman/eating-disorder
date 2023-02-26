@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'sans';
+    src: url(./notcouriersans/notcouriersans-webfont.woff) format('woff'),
+         url(./notcouriersans/notcouriersans-webfont.woff2) format('woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'sans';
+    src: url(./notcouriersans/notcouriersans-bold-webfont.woff) format('woff'),
+         url(./notcouriersans/notcouriersans-bold-webfont.woff2) format('woff2');
+    font-weight: 700;
+}

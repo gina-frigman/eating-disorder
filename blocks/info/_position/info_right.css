@@ -1,0 +1,11 @@
+.info_right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+@media screen and (min-width: 768px) {
+    .info_right {
+        align-items: center;
+    }
+}

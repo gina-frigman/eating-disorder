@@ -1,0 +1,19 @@
+.header__title {
+    width: 95%;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    margin: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFF8E7;
+    text-align: center;
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .header__title {
+        display: block;
+        font-size: 18px;
+    }
+}
