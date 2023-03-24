@@ -1,8 +1,8 @@
 .main-info {
-    max-width: 1000px;
+    max-width: 1500px;
     margin: 105px auto 0;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 280px);
+    grid-template-columns: repeat(auto-fit, 500px);
     gap: 30px 10px;
     justify-content: center;
 }
@@ -10,5 +10,6 @@
 @media screen and (max-width: 767px) {
     .main-info {
         margin-top: 75px;
+    grid-template-columns: repeat(auto-fit, 300px);
     }
 }
