@@ -1,9 +1,0 @@
-.menu__container {
-    display: flex;
-    flex-direction: column;
-    background-color: #fff6e7;
-    width: 45%;
-    min-width: 250px;
-    height: 100%;
-    border-right: solid 2px #3D0700;
-}
