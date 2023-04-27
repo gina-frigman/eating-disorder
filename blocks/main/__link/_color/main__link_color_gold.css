@@ -1,0 +1,14 @@
+.main__link_color_gold {
+    color: rgb(92, 55, 12);
+    opacity: 1;
+}
+
+.main__link_color_gold:hover {
+    opacity: .7;
+    transition: opacity 3s ease-in-out;
+}
+
+.main__link_color_gold:visited {
+    color: rgb(77, 90, 78);
+    opacity: 1;
+}

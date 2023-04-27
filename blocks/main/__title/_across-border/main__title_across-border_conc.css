@@ -1,0 +1,29 @@
+.main__title_across-border_conc {
+    position: relative;
+    top: 40px;
+    left: 5%;
+    text-align: center;
+    margin: 0;
+    background-color: #fff8e7;
+    min-width: 30%;
+}
+
+@media screen and (max-width: 1024px) {
+    .main__title_across-border_conc {
+        min-width: 35%;
+        margin-top: -15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main__title_across-border_conc {
+        top: 40px;
+        margin-top: -55px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .main__title_across-border_conc {
+        min-width: 55%;
+    }
+}

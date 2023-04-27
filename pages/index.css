@@ -1,0 +1,66 @@
+@import url(./../vendor/normalize.css);
+@import url(./../vendor/fonts/fonts.css);
+
+@import url(./../blocks/page/page.css);
+@import url(./../blocks/header/header.css);
+@import url(./../blocks/header/_device/header_device_computer.css);
+@import url(./../blocks/header/__title/header__title.css);
+@import url(./../blocks/menu-button/menu-button.css);
+@import url(./../blocks/menu/menu.css);
+@import url(./../blocks/menu/_device/menu_device_phone.css);
+@import url(./../blocks/menu/__link/menu__link.css);
+@import url(./../blocks/plant/plant.css);
+@import url(./../blocks/plant/_type/plant_type_left-top.css);
+@import url(./../blocks/plant/_type/plant_type_right-top.css);
+@import url(./../blocks/plant/_type/plant_type_left-bottom.css);
+@import url(./../blocks/plant/_type/plant_type_right-bottom.css);
+
+@import url(./../blocks/main/main.css);
+@import url(./../blocks/greeting/greeting.css);
+@import url(./../blocks/main/__header/main__header.css);
+@import url(./../blocks/main/__title/main__title.css);
+@import url(./../blocks/main/__title/_right/main__title_right.css);
+@import url(./../blocks/main/__title/_across-border/main__title_across-border_greeting.css);
+@import url(./../blocks/main/__paragraph/main__paragraph.css);
+@import url(./../blocks/main/__paragraph/_border/main__paragraph_border_all.css);
+@import url(./../blocks/main/__paragraph/_border/main__paragraph_border_left-top.css);
+@import url(./../blocks/main/__paragraph/_border/main__paragraph_border_right-top.css);
+@import url(./../blocks/main/__paragraph/_border/main__paragraph_border_left-bottom.css);
+@import url(./../blocks/main/__paragraph/_border/main__paragraph_border_right-bottom.css);
+
+@import url(./../blocks/ed/ed.css);
+@import url(./../blocks/definition/definition.css);
+@import url(./../blocks/definition/__term/definition__term.css);
+@import url(./../blocks/);
+@import url(./../blocks/definition/__explanation/definition__explanation.css);
+@import url(./../blocks/types/types.css);
+@import url(./../blocks/type/type.css);
+@import url(./../blocks/type/_color/type_color_gold.css);
+@import url(./../blocks/type/_color/type_color_green.css);
+@import url(./../blocks/type/__term/type__term.css);
+@import url(./../blocks/type/__term/_color/type__term_color_gold.css);
+@import url(./../blocks/type/__term/_color/type__term_color_green.css);
+@import url(./../blocks/type/__definition/type__definition.css);
+@import url(./../blocks/symp-cons/symp-cons.css);
+@import url(./../blocks/symp-cons/__paragraph/symp-cons__paragraph.css);
+@import url(./../blocks/symp/symp.css);
+@import url(./../blocks/cons/cons.css);
+@import url(./../blocks/scheme/scheme.css);
+
+@import url(./../blocks/types/_platforms/types_platforms.css);
+@import url(./../blocks/main/__link//main__link.css);
+@import url(./../blocks/main/__link/_color/main__link_color_gold.css);
+@import url(./../blocks/main/__link/_color/main__link_color_green.css);
+@import url(./../blocks/socials/socials.css);
+@import url(./../blocks/social/social.css);
+@import url(./../blocks/social/_reverse/social_reverse.css);
+@import url(./../blocks/social/__icon/social__icon.css);
+
+@import url(./../blocks/conclusion/conclusion.css);
+@import url(./../blocks/main/__title/_across-border/main__title_across-border_conc.css);
+@import url(./../blocks/plant/_conc/plant_conc_top.css);
+@import url(./../blocks/plant/_conc/plant_conc_bottom.css);
+
+@import url(./../blocks/contacts/contacts.css);
+@import url(./../blocks/contacts/__open/contacts__open.css);
+@import url(./../blocks/contacts/__logo/contacts__logo.css);

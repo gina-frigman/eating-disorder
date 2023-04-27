@@ -1,0 +1,14 @@
+.definition__term {
+    margin: 0;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 29px;
+    color: rgba(92, 55, 12, 1);
+}
+
+@media screen and (max-width: 768px) {
+    .definition__term {
+        font-size: 23px;
+        line-height: 25px;
+    }
+}

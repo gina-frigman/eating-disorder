@@ -1,0 +1,30 @@
+.main__title_across-border_greeting {
+    position: relative;
+    top: 20px;
+    left: 10%;
+    text-align: center;
+    margin: 0;
+    background-color: #fff8e7;
+    max-width: 35%;
+}
+
+@media screen and (max-width: 1024px) {
+    .main__title_across-border_greeting {
+        max-width: 40%;
+        left: 13%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main__title_across-border_greeting {
+        top: 10px;
+        left: 15%;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .main__title_across-border_greeting {
+        max-width: 60%;
+        left: 25%;
+    }
+}

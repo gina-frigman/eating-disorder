@@ -1,0 +1,19 @@
+.plant_type_left-bottom {
+    background-image: url(./../../../images/lb.svg);
+    left: -40px;
+    bottom: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .plant_type_left-bottom  {
+        left: -5px;
+        bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .plant_type_left-bottom {
+        left: -15px;
+        bottom: 15px;
+    }
+}

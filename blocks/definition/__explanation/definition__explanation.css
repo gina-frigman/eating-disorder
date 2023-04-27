@@ -1,0 +1,13 @@
+.definition__explanation {
+    margin: 0;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 29px;
+}
+
+@media screen and (max-width: 768px) {
+    .definition__explanation {
+        font-size: 23px;
+        line-height: 25px;
+    }
+}

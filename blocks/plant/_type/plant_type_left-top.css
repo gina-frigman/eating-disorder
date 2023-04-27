@@ -1,0 +1,24 @@
+.plant_type_left-top {
+    background-image: url(./../../../images/lt.svg);
+    left: -40px;
+}
+
+.plant_type_left-top:first-of-type {
+    top: 80px;
+}
+
+@media screen and (max-width: 768px) {
+    .plant_type_left-top {
+        left: 0;
+    }
+
+    .plant_type_left-top:first-of-type {
+        top: 60px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .plant_type_left-top {
+        left: -15px;
+    }
+}

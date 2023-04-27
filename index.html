@@ -7,142 +7,290 @@
         <title>важность рпп</title>
     </head>
     <body class="page">
-        <header class="header">
-            <img class="logo" src="">
+        <header class="header header_device_phone">
             <button class="menu-button"></button>
+            <p class="header__title">твоя комфортная зона</p>
+            <nav class="menu menu_device_phone">
+                <div class="plant plant_right-top"></div> <!--мб они дб вне меню-->
+                <a href="#greeting" class="menu__link">главная</a>
+                <a href="#ed" class="menu__link">рпп</a>
+                <a href="#platforms" class="menu__link">платформы</a>
+                <a href="#website" class="menu__link">о сайте</a>
+                <a href="#social-networks" class="menu__link">о нас</a>
+                <div class="plant plant_left-bottom"></div>
+            </nav>
+        </header>
+        <header class="header header_device_computer">
+            <img class="logo" src="./images/logo_rect.svg">
             <nav class="menu">
-                <a href="#" class="menu__link">главная</a>
-                <a href="#" class="menu__link">рпп</a>
-                <a href="#" class="menu__link">платформы</a>
-                <a href="#" class="menu__link">о сайте</a>
-                <a href="#" class="menu__link">о нас</a>
-                <a href="#" class="menu__link">контакты</a>
+                <a href="#greeting" class="menu__link">главная</a>
+                <a href="#ed" class="menu__link">рпп</a>
+                <a href="#platforms" class="menu__link">платформы</a>
+                <a href="#website" class="menu__link">о сайте</a>
+                <a href="#social-networks" class="menu__link">о нас</a>
             </nav>
         </header>
         <main class="main">
-            <section class="greeting">
-                <div class="plant"></div>
-                <div class="plant"></div>
-                <h1 class="main__title"></h1>
-                <p class="main__paragraph"></p>
+            <section id="greeting" class="greeting">
+                <div class="plant plant_type_left-top"></div> <!--мб лучше img-->
+                <h1 class="main__title main__title_across-border_greeting main__title_right">приветствие</h1><!--не забудь про отступ-->
+                <div class="main__paragraphs">
+                    <p class="main__paragraph main__paragraph_border_all">добро пожаловать на  сайт о расстройстве пищевого поведения. 
+                        здесь вы можете найти основную информацию об рпп: определение, его признаки, симптомы и 
+                        последствия. мы не специалисты, а потому не можем оказать поддержку самостоятельно, однако, 
+                        на сайте есть список платформ, куда вы можете обратиться за квалифицированной помощью. 
+                        важно упомянуть, что это зона комфорта для каждого, кто столкнулся с этим расстройством. 
+                        никто не будет вас осуждать - здесь вас ожидают лишь позитивные вибрации.</p>
+                </div>
             </section>
-            <section class="ed">
-                <div class="plant"></div>
-                <div class="plant"></div>
-                <h1 class="main__title"></h1>
-                <p class="main__paragraph"></p>
-                <div class="definition">
-                    <h2 class="definition__term definition__term_color_gold"></h2>
-                    <p class="definition__explanation"></p>
-                </div>
-                <p class="main__paragraph"></p>
-                <div class="types-disorders">
-                    <div class="type type_color_gold">
-                        <h2 class="type__term type__term_color_green"></h2>
-                        <p class="type__definition"></p>
-                    </div>
-                    <div class="type type_color_green">
-                        <h2 class="type__term type__term_color_gold"></h2>
-                        <p class="type__definition"></p>
-                    </div>
-                    <div class="type type_color_gold">
-                        <h2 class="type__term type__term_color_green"></h2>
-                        <p class="type__definition"></p>
-                    </div>
-                    <div class="type type_color_green">
-                        <h2 class="type__term type__term_color_gold"></h2>
-                        <p class="type__definition"></p>
-                    </div>
-                    <div class="type type_color_gold">
-                        <h2 class="type__term type__term_color_green"></h2>
-                        <p class="type__definition"></p>
-                    </div>
-                    <div class="type type_color_green">
-                        <h2 class="type__term type__term_color_gold"></h2>
-                        <p class="type__definition"></p>
+            <section id="ed" class="ed">
+                <div class="main__header">
+                    <h1 class="main__title">расстройство пищевого поведения</h1>
+                    <div class="plants">
+                        <div class="plant plant_type_right-bottom"></div>
+                        <div class="plant plant_type_right-top"></div>
                     </div>
                 </div>
-                <div class="symp-cons">
-                    <div class="symp">
-                        <p class="main__paragraph"></p>
-                        <div class="scheme">
-                            <div class="arrows-gold"></div>
-                            <h2 class="symp-cons__term"></h2>
-                            <h2 class="symp-cons__term"></h2>
-                            <h2 class="symp-cons__term"></h2>
-                            <h2 class="symp-cons__term"></h2>
-                            <h2 class="symp-cons__term"></h2>
-                            <h2 class="symp-cons__term"></h2>
-                            <h2 class="symp-cons__term"></h2>
+                <div class="main__paragraphs">
+                    <p class="main__paragraph main__paragraph_border_left-top">для начала, разберемся, что подразумевает под собой рпп:</p>
+                    <div class="definition">
+                        <h2 class="definition__term">расстройство пищевого поведения (рпп) – </h2>
+                        <p class="definition__explanation">это психическое заболевание, характеризующееся нарушениями 
+                            в потреблении и отношении к пище.</p>
+                    </div>
+                    <p class="main__paragraph">это заболевание имеет множество подтипов:</p>
+                    <div class="types types_disorders">
+                        <template id="template-gold-type">
+                            <article class="type type_color_gold">
+                                <h2 class="type__term type__term_color_green"></h2>
+                                <p class="type__definition"></p>
+                            </article>
+                        </template>
+                        <template id="template-green-type">
+                            <article class="type type_color_green">
+                                <h2 class="type__term type__term_color_gold"></h2>
+                                <p class="type__definition"></p>
+                            </article>
+                        </template>
+                        <div class="type type_color_gold">
+                            <h2 class="type__term type__term_color_green">нервная анорексия –</h2>
+                            <p class="type__definition">болезненное желание снизить свой вес, страх ожирения</p>
+                        </div>
+                        <div class="type type_color_green">
+                            <h2 class="type__term type__term_color_gold">нервная булимия –</h2>
+                            <p class="type__definition">периодическое переедание и дальнейшее «очищение» организма</p>
+                        </div>
+                        <div class="type type_color_gold">
+                            <h2 class="type__term type__term_color_green">избегание / ограничение приема пищи (иопп) –</h2>
+                            <p class="type__definition">расстройство, связанное с потерей интереса или страхом еды</p>
+                        </div>
+                        <div class="type type_color_green">
+                            <h2 class="type__term type__term_color_gold">компульсивное переедание –</h2>
+                            <p class="type__definition">чрезмерное потребление пищи, основанное на психологическом факторе</p>
+                        </div>
+                        <div class="type type_color_gold">
+                            <h2 class="type__term type__term_color_green">пикацизм –</h2>
+                            <p class="type__definition">потребление в пищу несъедобных предметов</p>
+                        </div>
+                        <div class="type type_color_green">
+                            <h2 class="type__term type__term_color_gold">мышечная дисморфия –</h2>
+                            <p class="type__definition">наращивание мышц любыми способами</p>
                         </div>
                     </div>
-                    <div class="cons">
-                        <p class="main__paragraph"></p>
-                        <div class="scheme">
-                            <div class="arrows-gold"></div>
-                            <h2 class="symp-cons__term"></h2>
-                            <h2 class="symp-cons__term"></h2>
-                            <h2 class="symp-cons__term"></h2>
-                            <h2 class="symp-cons__term"></h2>
-                            <h2 class="symp-cons__term"></h2>
-                            <h2 class="symp-cons__term"></h2>
-                            <h2 class="symp-cons__term"></h2>
+                    <div class="symp-cons">
+                        <div class="symp">
+                            <p class="symp-cons__paragraph">признаки рпп могут быть специфичными и универсальными:</p>
+                            <img src="./images/symp.svg" class="scheme">
+                        </div>
+                        <div class="cons">
+                            <p class="symp-cons__paragraph">последствия также индивидуальны для каждого:</p>
+                            <img src="./images/cons.svg" class="scheme">
                         </div>
                     </div>
-                    <p class="main__paragraph"></p>
+                    <p class="main__paragraph main__paragraph_border_right-bottom">вопреки стереотипам, рпп не включает в себя ожирение - 
+                        это отдельное заболевание. по мнению учёных, большое влияние на количество 
+                        столкнувшихся с этим расстройством людей возымело стандартизация и обществом 
+                        худобы. кроме того, согласно исследованиям, рпп часто встречается в совокупности 
+                        с депрессивным и / или тревожным расстройствами.</p>
                 </div>
             </section>
-            <section class="platforms">
-                <div class="plant"></div>
-                <div class="plant"></div>
-                <h1 class="main__title"></h1>
-                <div class="types-platforms">
+            <section id="platforms" class="platforms">
+                <div class="main__header">
+                    <div class="plants">
+                        <div class="plant plant_type_left-bottom"></div>
+                        <div class="plant plant_type_left-top"></div>
+                    </div>
+                    <h1 class="main__title">платформы</h1>
+                </div>
+                <div class="types types_platforms">
+                    <template id="template-gold-type">
+                        <article class="type type_color_gold">
+                            <h2 class="type__term type__term_color_green"></h2>
+                            <p class="type__definition"></p>
+                        </article>
+                    </template>
+                    <template id="template-green-type">
+                        <article class="type type_color_green">
+                            <h2 class="type__term type__term_color_gold"></h2>
+                            <p class="type__definition"></p>
+                        </article>
+                    </template>
+                    <div class="type type_color_green">
+                        <p class="type__term"><a class="main__link main__link_color_gold" 
+                            href="https://rpp-recovery.by/">свобода от рпп</a> –</p>
+                        <p class="type__definition">информационно-коммуникативная платформа, где можно найти 
+                            статистику рпп, послушать подкасты, посмотреть видео, прочитать статьи и литературу, 
+                            а также узнать об опыте людей, столкнувшихся с рпп</p>
+                    </div>
                     <div class="type type_color_gold">
-                        <h2 class="type__term type__term_color_green"></h2>
-                        <p class="type__definition"></p>
+                        <p class="type__term"><a class="main__link main__link_color_green" 
+                            href="https://r-psy.ru/">развитие психологической помощи</a> –</p>
+                        <p class="type__definition">сайт с бесплатной круглосуточной горячей линией для тех, 
+                            кто отчаянно нуждается в поддержке. Операторами являются психологи со стажем более 10 лет</p>
                     </div>
                     <div class="type type_color_green">
-                        <h2 class="type__term type__term_color_gold"></h2>
-                        <p class="type__definition"></p>
+                        <p class="type__term"><a class="main__link main__link_color_gold" 
+                            href="https://psy-chat.ru/psiholog-rpp-onlain">psychat</a> –</p>
+                        <p class="type__definition">платформа, где можно найти подходящего психолога по расстройству 
+                            пищевого поведения, с которым можно встретиться лично или поговорить в онлайн-формате. 
+                            Заявки принимаются круглосуточно</p>
                     </div>
                     <div class="type type_color_gold">
-                        <h2 class="type__term type__term_color_green"></h2>
-                        <p class="type__definition"></p>
+                        <p class="type__term"><a class="main__link main__link_color_green" 
+                            href="https://psychologycorp.ru/pisevoe-povedenie">корпорация психологии</a> –</p>
+                        <p class="type__definition">сайт, где можно получить консультацию психолога в формате онлайн 
+                            или ответ на вопрос в чате со специалистом. Также есть информация о причинах и симптомах рпп</p>
                     </div>
                     <div class="type type_color_green">
-                        <h2 class="type__term type__term_color_gold"></h2>
-                        <p class="type__definition"></p>
+                        <p class="type__term"><a class="main__link main__link_color_gold" 
+                            href="http://fondgippokrat.ru/">гиппократ</a> –</p>
+                        <p class="type__definition">фонд, оказывающий первую психологическую поддержку людям, столкнувшимся 
+                            с нервной анорексией и булимией и помогающий собрать средства на оплату комплексного лечения</p>
                     </div>
                     <div class="type type_color_gold">
-                        <h2 class="type__term type__term_color_green"></h2>
-                        <p class="type__definition"></p>
-                    </div>
-                    <div class="type type_color_green">
-                        <h2 class="type__term type__term_color_gold"></h2>
-                        <p class="type__definition"></p>
+                        <p class="type__term"><a class="main__link main__link_color_green" 
+                            href="https://arpp-12steps.ru/">анонимные с расстройством пищевого поведения</a> –</p>
+                        <p class="type__definition">сообщество людей с рпп, готовых помочь людям с подобным опытом. здесь 
+                            нет специалистов - лишь те, кто столкнулся с тем же расстройством</p>
                     </div>
                 </div>
             </section>
-            <section class="website">
-                <div class="plant"></div>
-                <div class="plant"></div>
-                <h1 class="main__title"></h1>
-                <p class="main__paragraph"></p>
+            <section id="website" class="website">
+                <div class="main__header">
+                    <h1 class="main__title">о сайте</h1>
+                    <div class="plants">
+                        <div class="plant plant_type_right-bottom"></div>
+                        <div class="plant plant_type_right-top"></div>
+                    </div>
+                </div>
+                <p class="main__paragraph main__paragraph_border_left-top">
+                    многие люди столкнулись с расстройством пищевого поведения, но при попытке 
+                    рассказать о проблеме близким и получить от них помощь, их встречало обесценивание. этот 
+                    сайт создан для огласки и борьбы с данной проблемой, ведь получить поддержку должен каждый желающий.</p>
+                <p class=" main__paragraph  main__paragraph_border_right-bottom">сайт является практической частью проекта 
+                    «расстройство пищевого поведения: психоанализ». информацию о теоретической части проекта и проделанной 
+                    работе можно найти по <a href="#" class="main__link main__link_color_gold">ссылке</a>
+                </p>
             </section>
-            <section class="us">
-                <div class="plant"></div>
-                <div class="plant"></div>
-                <h1 class="main__title"></h1>
-                <p class="main__paragraph"></p>
+            <section id="social-networks" class="social-networks">
+                <div class="main__header">
+                    <div class="plants">
+                        <div class="plant plant_type_left-bottom"></div>
+                        <div class="plant plant_type_left-top"></div>
+                    </div>
+                    <h1 class="main__title">контакты</h1>
+                </div>
+                <p class="main__paragraph main__paragraph_border_right-top">сайт был создан 
+                    <abbr class="main__hint" data-title="ну или же кравцовой евгенией">вирджинией</abbr> и 
+                    <abbr class="main__hint" data-title="и демидович марией">фиби</abbr> - ученицами 10 класса. 
+                    автором логотипа сайта является <abbr class="main__hint" data-title="роман клименко">рамеоки</abbr> 
+                    - ученик 9 класса. процесс создания, первые варианты реализации сайта и черновики вы можете увидеть 
+                    <a href="#" class="main__link main__link_color_gold">здесь</a>. кроме того, 
+                    приглашаем вас посетить наши профили в различных социальных сетях:</p>
+                <div class="socials main__paragraph">
+                    <template id="template-social">
+                        <article class="social">
+                            <img class="social__icon" src="#">
+                            <a href="#" class="social__name"></p>
+                        </article>
+                    </template>
+                    <template id="template-social-reverse">
+                        <article class="social social_reverse">
+                            <img class="social__icon" src="#">
+                            <a href="#" class="social__name"></p>
+                        </article>
+                    </template>
+                    <div class="social social_reverse">
+                        <img class="social__icon" src="./images/tg-green.svg">
+                        <a href="https://t.me/chaotic_yella" class="main__link main__link_color_green">@chaotic_yella</a>
+                    </div>
+                    <div class="social">
+                        <img class="social__icon" src="./images/tt.svg">
+                        <a href="https://www.tiktok.com/@ffaibles?_t=8bNM7fqaI41&_r=1" 
+                        class="main__link main__link_color_gold">@ffaibles</a>
+                    </div>
+                    <div class="social social_reverse">
+                        <img class="social__icon" src="./images/tg-gold.svg">
+                        <a href="https://t.me/romeokli" class="main__link main__link_color_gold">@romeokli</a>
+                    </div>
+                    <div class="social">
+                        <img class="social__icon" src="./images/tg-green.svg">
+                        <a href="https://t.me/ffaible" class="main__link main__link_color_green">@ffaible</a>
+                    </div>
+                    <div class="social social_reverse">
+                        <img class="social__icon" src="./images/inst.svg">
+                        <a href="https://instagram.com/_chaotic_yella_?igshid=YmMyMTA2M2Y=" 
+                        class="main__link main__link_color_green">@_chaotic_yella_</a>
+                    </div>
+                    <div class="social">
+                        <img class="social__icon" src="./images/tt.svg">
+                        <a href="https://www.tiktok.com/@ffaible?_t=8bNM9bjqzDO&_r=1" 
+                        class="main__link main__link_color_gold">@ffaible</a>
+                    </div>
+                </div>
+                <p class="main__paragraph main__paragraph_border_left-bottom">в них вы сможете увидеть наше
+                    творчество и повседневную жизнь, узнать об интересах и увлечениях и пообщаться с нами, задав 
+                    все интересующие вопросы</p>
             </section>
-            <section class="form">
-                <section class="greeting">
-                    <div class="plant"></div>
-                    <div class="plant"></div>
-                    <h1 class="main__title"></h1>
-                    <p class="main__paragraph"></p>
-
+            <section class="conclusion">
+                <div class="main__header">
+                    <h1 class="main__title main__title_across-border_conc">заключение</h1>
+                    <div class="plants">
+                        <div class="plant plant_type_right-bottom"></div>
+                        <div class="plant plant_type_right-top plant_conc_top"></div>
+                    </div>
+                </div>
+                <p class="main__paragraph main__paragraph_border_all">мы подошли к концу 
+                    сайта. спасибо, что посетили его, надеюсь, вы узнали что-то новое. для людей с расстройством пищевого поведения: 
+                    надеюсь, наш сайт действительно был комфортным для вас и вы смогли обратиться за помощью. никогда не опускайте
+                     руки и продолжайте бороться. вы справитесь, я верю в вас. помните, что каждый из нас по-своему прекрасен и 
+                     заслуживает быть любимым не только другими, но и самим собой.</p>
+                <div class="plant plant_type_left-bottom plant_conc_bottom"></div>
             </section>
+            <footer class="footer">
+                <p class="footer__author">©2023 eating disorder. yella</p>
+            </footer>
+            <div class="popup">
+                <div class="popup__container">
+                    <button class="popup__close"></button>
+                    <form class="popup__form">
+                        <label class="popup__field">
+                            <input required class="popup__input popup__input_name" type="text" maxlength="20"
+                            placeholder="ваше имя / псевдоним">
+                            <input required class="popup__input popup__input_mail" type="email"
+                            placeholder="ваша почта">
+                            <input required class="popup__input popup__input_text" type="text" maxlength="1000"
+                            placeholder="ваши идеи / впечатления / опыт / ">
+                        </label>
+                        <button class="popup__submit"></button>
+                    </form>
+                </div>
+            </div>
+            </section>
+            <div class="contacts">
+                <button class="contacts__open"></button>
+                <img src="./images/logo_circ.svg" class="contacts__logo">
+            </div>
         </main>
         <script src="./scripts/index.js"></script>
     </body>

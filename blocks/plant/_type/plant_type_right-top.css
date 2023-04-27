@@ -1,0 +1,17 @@
+.plant_type_right-top {
+    background-image: url(./../../../images/rt.svg);
+    top: 10px;
+    right: -40px;
+}
+
+@media screen and (max-width: 768px) {
+    .plant_type_right-top  {
+        right: -5px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .plant_type_right-top {
+        right: -15px;
+    }
+}

@@ -1,0 +1,11 @@
+.type {
+    padding: 10px 25px;
+    border: .7px solid;
+    border-radius: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    .type {
+        width: 300px;
+    }
+}

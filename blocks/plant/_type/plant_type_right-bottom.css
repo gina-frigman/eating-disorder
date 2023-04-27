@@ -1,0 +1,18 @@
+.plant_type_right-bottom {
+    background-image: url(./../../../images/rb.svg);
+    position: relative;
+    bottom: 10px;
+    right: -40px;
+}
+
+@media screen and (max-width: 768px) {
+    .plant_type_right-bottom  {
+        right: -5px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .plant_type_right-bottom {
+        right: -15px;
+    }
+}

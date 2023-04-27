@@ -1,0 +1,17 @@
+.main__paragraph {
+    width: 90%;
+    margin: 50px auto;
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 27px;
+}
+
+@media screen and (max-width: 768px) {
+    .main__paragraph {
+        font-size: 20px;
+        line-height: 23px;
+        font-weight: 300;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}

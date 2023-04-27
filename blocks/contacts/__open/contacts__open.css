@@ -1,0 +1,10 @@
+.contacts__open {
+    width: 70px;
+    height: 70px;
+    border: none;
+    background-image: url(./../../../images/contacts.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 10px;
+    cursor: pointer;
+}

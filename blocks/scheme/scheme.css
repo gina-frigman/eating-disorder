@@ -1,0 +1,10 @@
+.scheme {
+    width: 40vw;
+}
+
+@media screen and (max-width: 1024px) {
+    .scheme {
+        width: 70vw;
+        margin-bottom: 30px;
+    }
+}

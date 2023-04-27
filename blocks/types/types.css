@@ -1,0 +1,16 @@
+.types {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 430px);
+    gap: 50px 70px;
+    justify-content: center;
+    padding: 50px;
+    border-top: .5px solid #5C370C;
+    border-bottom: .5px solid #5C370C;
+}
+
+@media screen and (max-width: 768px) {
+    .types {
+        display: flex;
+        flex-direction: column;
+    }
+}

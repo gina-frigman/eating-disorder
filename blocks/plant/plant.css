@@ -1,0 +1,23 @@
+.plant {
+    max-width: 120px;
+    max-height: 120px;
+    width: 20vw;
+    height: 20vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+@media screen and (max-width: 768px) {
+    .plant {
+        width: 13vw;
+        height: 13vw;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .plant {
+        width: 17vw;
+        height: 17vw;
+    }
+}

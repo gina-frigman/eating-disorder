@@ -1,0 +1,23 @@
+.main__paragraph_border_right-top {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 0.5px solid #5C370C;
+    border-top-right-radius: 25px;
+    border-bottom: none;
+    border-left: none;
+}
+
+@media screen and (max-width: 768px) {
+    .main__paragraph_border_right-top {
+        border-radius: 0;
+        border-right: none;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .main__paragraph_border_right-top {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

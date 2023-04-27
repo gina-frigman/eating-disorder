@@ -1,0 +1,9 @@
+.page {
+    width: 100%;
+    background-color: #FFF8E7;
+    color: #230D0A;
+    font-family: 'Nunito', Courier, monospace;
+    font-weight: 200;
+    text-align: justify;
+    letter-spacing: .11em;
+}
