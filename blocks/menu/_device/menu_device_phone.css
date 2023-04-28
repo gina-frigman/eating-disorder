@@ -1,0 +1,16 @@
+.menu_device_phone {
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 300px;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    z-index: 1;
+    background-color: #fff8e7;
+    border-bottom: 0.5px solid #833a0e;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity, ease-out, .3s, visibility, ease-out, .3s;
+}

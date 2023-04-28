@@ -1,0 +1,5 @@
+.main__paragraphs {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

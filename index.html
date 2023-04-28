@@ -22,7 +22,7 @@
         </header>
         <header class="header header_device_computer">
             <img class="logo" src="./images/logo_rect.svg">
-            <nav class="menu">
+            <nav class="menu menu_device_computer">
                 <a href="#greeting" class="menu__link">главная</a>
                 <a href="#ed" class="menu__link">рпп</a>
                 <a href="#platforms" class="menu__link">платформы</a>
@@ -99,11 +99,11 @@
                     </div>
                     <div class="symp-cons">
                         <div class="symp">
-                            <p class="symp-cons__paragraph">признаки рпп могут быть специфичными и универсальными:</p>
+                            <p class="symp-cons__paragraph">у каждого подтипа рпп свои признаки, но есть универсальные:</p>
                             <img src="./images/symp.svg" class="scheme">
                         </div>
                         <div class="cons">
-                            <p class="symp-cons__paragraph">последствия также индивидуальны для каждого:</p>
+                            <p class="symp-cons__paragraph">последствия рпп также индивидуальны, но чаще всего встречаются:</p>
                             <img src="./images/cons.svg" class="scheme">
                         </div>
                     </div>
@@ -125,13 +125,15 @@
                 <div class="types types_platforms">
                     <template id="template-gold-type">
                         <article class="type type_color_gold">
-                            <h2 class="type__term type__term_color_green"></h2>
+                            <h2 class="type__term"><a class="main__link main__link_color_green" 
+                                href="#"></a> –</h2>
                             <p class="type__definition"></p>
                         </article>
                     </template>
                     <template id="template-green-type">
                         <article class="type type_color_green">
-                            <h2 class="type__term type__term_color_gold"></h2>
+                            <h2 class="type__term"><a class="main__link main__link_color_gold" 
+                                href="#"></a> –</h2>
                             <p class="type__definition"></p>
                         </article>
                     </template>
@@ -220,22 +222,18 @@
                             <a href="#" class="social__name"></p>
                         </article>
                     </template>
-                    <div class="social social_reverse">
-                        <img class="social__icon" src="./images/tg-green.svg">
-                        <a href="https://t.me/chaotic_yella" class="main__link main__link_color_green">@chaotic_yella</a>
-                    </div>
                     <div class="social">
+                        <img class="social__icon" src="./images/tg-green.svg">
+                        <a href="https://t.me/ffaible" class="main__link main__link_color_green">@ffaible</a>
+                    </div>
+                    <div class="social social_reverse">
                         <img class="social__icon" src="./images/tt.svg">
                         <a href="https://www.tiktok.com/@ffaibles?_t=8bNM7fqaI41&_r=1" 
                         class="main__link main__link_color_gold">@ffaibles</a>
                     </div>
-                    <div class="social social_reverse">
-                        <img class="social__icon" src="./images/tg-gold.svg">
-                        <a href="https://t.me/romeokli" class="main__link main__link_color_gold">@romeokli</a>
-                    </div>
                     <div class="social">
-                        <img class="social__icon" src="./images/tg-green.svg">
-                        <a href="https://t.me/ffaible" class="main__link main__link_color_green">@ffaible</a>
+                        <img class="social__icon" src="./images/tg-gold.svg">
+                        <a href="https://t.me/chaotic_yella" class="main__link main__link_color_gold">@chaotic_yella</a>
                     </div>
                     <div class="social social_reverse">
                         <img class="social__icon" src="./images/inst.svg">
@@ -243,6 +241,10 @@
                         class="main__link main__link_color_green">@_chaotic_yella_</a>
                     </div>
                     <div class="social">
+                        <img class="social__icon" src="./images/tg-green.svg">
+                        <a href="https://t.me/romeokli" class="main__link main__link_color_green">@romeokli</a>
+                    </div>
+                    <div class="social social_reverse">
                         <img class="social__icon" src="./images/tt.svg">
                         <a href="https://www.tiktok.com/@ffaible?_t=8bNM9bjqzDO&_r=1" 
                         class="main__link main__link_color_gold">@ffaible</a>
@@ -273,25 +275,31 @@
             <div class="popup">
                 <div class="popup__container">
                     <button class="popup__close"></button>
-                    <form class="popup__form">
-                        <label class="popup__field">
-                            <input required class="popup__input popup__input_name" type="text" maxlength="20"
-                            placeholder="ваше имя / псевдоним">
-                            <input required class="popup__input popup__input_mail" type="email"
-                            placeholder="ваша почта">
-                            <input required class="popup__input popup__input_text" type="text" maxlength="1000"
-                            placeholder="ваши идеи / впечатления / опыт / ">
-                        </label>
-                        <button class="popup__submit"></button>
-                    </form>
+                    <php>
+                        <form class="popup__form" action="send.php" method="post">
+                            <p class="popup__title">форма обратной связи</p>
+                            <label class="popup__field">
+                                <input required class="popup__input popup__input_type_name" type="text" maxlength="20"
+                                placeholder="ваше имя / псевдоним" id="name-input">
+                                <span class="popup__input-error name-input-error"></span>
+                                <input required class="popup__input popup__input_type_email" type="email"
+                                placeholder="ваша почта" id="email-input">
+                                <span class="popup__input-error email-input-error"></span>
+                                <input required class="popup__input popup__input_type_text" type="text" maxlength="1000"
+                                placeholder="ваши идеи / впечатления / опыт" id="text-input">
+                                <span class="popup__input-error text-input-error"></span>
+                            </label>
+                            <button class="popup__submit">отправить</button>
+                        </form>
+                    </php>
                 </div>
             </div>
             </section>
             <div class="contacts">
-                <button class="contacts__open"></button>
+                <button class="contacts__button"></button>
                 <img src="./images/logo_circ.svg" class="contacts__logo">
             </div>
         </main>
-        <script src="./scripts/index.js"></script>
+        <script type="module" src="./scripts/index.js"></script>
     </body>
 </html>

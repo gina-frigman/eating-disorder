@@ -1,4 +1,18 @@
 .type_color_green {
     border-color: rgba(77, 90, 78, 1);
-    align-self: end;
+}
+
+@media screen and (max-width: 768px) {
+    .type_color_green {
+        align-self: start;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .type_color_green {
+        margin-left: 0;
+        align-self: center;
+        width: 90vw;
+    }
 }

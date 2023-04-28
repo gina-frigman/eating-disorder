@@ -4,7 +4,13 @@
 
 @media screen and (max-width: 1024px) {
     .scheme {
+        min-width: 500px;
         width: 70vw;
         margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .scheme {min-width: 345px;
     }
 }

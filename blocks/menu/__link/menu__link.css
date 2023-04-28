@@ -18,12 +18,13 @@
     .menu__link {
         width: 75%;
         text-align: center;
-        color: #230d0a; 
+        color: #6c3129; 
         font-size: 20px;
         line-height: 23px;
         padding-right: 0;
         padding-bottom: 20px;
-        border-bottom: 0.5px solid #5c370c;
+        padding-top: 10px;
+        border-bottom: 0.5px solid #833a0e;
     }
 
     .menu__link:last-of-type {

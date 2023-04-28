@@ -1,16 +1,19 @@
 .types {
+    width: 95%;
+    box-sizing: border-box;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 430px);
+    grid-template-columns: repeat(auto-fit, 470px);
     gap: 50px 70px;
     justify-content: center;
     padding: 50px;
-    border-top: .5px solid #5C370C;
-    border-bottom: .5px solid #5C370C;
+    border-top: .5px solid #833a0e;
+    border-bottom: .5px solid #833a0e;
 }
 
 @media screen and (max-width: 768px) {
     .types {
         display: flex;
+        align-items: center;
         flex-direction: column;
     }
 }

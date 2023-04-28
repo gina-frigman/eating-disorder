@@ -1,0 +1,6 @@
+.popup__submit_disabled {
+    background-color: #fff8e7;
+    cursor: default;
+    color: #6c3129;
+    opacity: 1;
+}

@@ -1,0 +1,9 @@
+.menu_device_computer {
+    width: 85%;
+}
+
+@media screen and (max-width: 768px) {
+    .menu_device_computer {
+        visibility: hidden;
+    }
+}
