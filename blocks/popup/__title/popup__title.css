@@ -12,6 +12,10 @@
     margin-bottom: 0;
 }
 
+.popup__title:last-of-type {
+    margin-top: 10px;
+}
+
 @media screen and (max-width: 768px) {
     .popup__title {
         min-width: 238px;
